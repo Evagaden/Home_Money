@@ -1,0 +1,298 @@
+{
+  "name": "main_screen",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "MWNpoCWEHfbaikIxHkrAuw",
+    "node": "4:39",
+    "version": "2159750543310795809",
+    "component-id": "6c06be4b55901fe87b53348b704aa057807be993"
+  },
+  "default": "Main_screen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Icon_main"
+      },
+      {
+        "type": "group",
+        "id": "Sign_in_button"
+      },
+      {
+        "type": "group",
+        "id": "Sign_up_button"
+      },
+      {
+        "type": "group",
+        "id": "Icon_app_main"
+      },
+      {
+        "type": "vector",
+        "id": "Icon_name_bg"
+      },
+      {
+        "type": "vector",
+        "id": "Icon_vector_main"
+      },
+      {
+        "type": "text",
+        "id": "Sign_in_text_main"
+      },
+      {
+        "type": "text",
+        "id": "Sign_up_text_main"
+      }
+    ],
+    "modes": {
+      "Main_screen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 76.0,
+              "top": 65.0,
+              "right": 76.0,
+              "bottom": 65.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Icon_main",
+              "Sign_in_button",
+              "Sign_up_button"
+            ],
+            "item-spacing": 66.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 197.1428571428573,
+              "saturation": 0.02777777777777779,
+              "value": 0.9882352941176471
+            }
+          },
+          {
+            "id": "Icon_main",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Icon_app_main"
+            ],
+            "item-spacing": 5.0,
+            "clip-content": false
+          },
+          {
+            "id": "Sign_in_button",
+            "padding": {
+              "left": 48.0,
+              "top": 14.0,
+              "right": 48.0,
+              "bottom": 14.0
+            },
+            "border-radius": 25.0,
+            "tap-handler": "$on Sign_in_button tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 159.5
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Sign_in_text_main"
+            ],
+            "item-spacing": 5.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 189.2682926829268,
+              "saturation": 1.0,
+              "value": 0.4823529411764706
+            }
+          },
+          {
+            "id": "Sign_up_button",
+            "padding": {
+              "left": 48.0,
+              "top": 14.0,
+              "right": 48.0,
+              "bottom": 14.0
+            },
+            "border-radius": 25.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 159.5
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Sign_up_text_main"
+            ],
+            "item-spacing": 5.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.99999999999997,
+              "saturation": 0.28571428571428564,
+              "value": 0.4117647058823529
+            }
+          },
+          {
+            "id": "Icon_app_main",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 223.39414978027344
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 226.77821350097656
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon_name_bg",
+              "Icon_vector_main"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Icon_name_bg",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 53.692626953125
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 68.1075439453125
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 116.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 99.5
+              }
+            },
+            "vector-content": "icon_name_bg.svg"
+          },
+          {
+            "id": "Icon_vector_main",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "icon_vector_main.svg"
+          },
+          {
+            "id": "Sign_in_text_main",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 103.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Đăng nhập",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 18.5,
+            "line-height": 1.2102272446091111,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Sign_up_text_main",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 103.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Đăng ký",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 18.5,
+            "line-height": 1.2102272446091111,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on Sign_in_button tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Main_screen",
+      "size": {
+        "width": 375.3941650390625,
+        "height": 588.7781982421875
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

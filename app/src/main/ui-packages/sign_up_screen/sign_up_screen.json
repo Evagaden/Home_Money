@@ -1,0 +1,604 @@
+{
+  "name": "sign_up_screen",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "MWNpoCWEHfbaikIxHkrAuw",
+    "node": "4:143",
+    "version": "2159744284996620826",
+    "component-id": "dcbdca993fffe501e654fc4197d4fbe2a3e79330"
+  },
+  "default": "Sign_up_screen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Sign_up_title"
+      },
+      {
+        "type": "group",
+        "id": "Name_Su_tf"
+      },
+      {
+        "type": "group",
+        "id": "Email_Su_tf"
+      },
+      {
+        "type": "group",
+        "id": "Phone_number_su_tf"
+      },
+      {
+        "type": "group",
+        "id": "Password_Su_tf"
+      },
+      {
+        "type": "group",
+        "id": "Re_Password_Su_tf"
+      },
+      {
+        "type": "group",
+        "id": "Sign_up_button_3"
+      },
+      {
+        "type": "text",
+        "id": "Greeting_2"
+      },
+      {
+        "type": "text",
+        "id": "Name_su_text"
+      },
+      {
+        "type": "text",
+        "id": "Email_su_text"
+      },
+      {
+        "type": "text",
+        "id": "Phone_number_su_text"
+      },
+      {
+        "type": "text",
+        "id": "Password_su_text"
+      },
+      {
+        "type": "vector",
+        "id": "Icon_eye_pw_su"
+      },
+      {
+        "type": "text",
+        "id": "Re_password_su_text"
+      },
+      {
+        "type": "vector",
+        "id": "Icon_eye_repw_su"
+      },
+      {
+        "type": "text",
+        "id": "Sign_up_2"
+      }
+    ],
+    "modes": {
+      "Sign_up_screen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Sign_up_title",
+              "Name_Su_tf",
+              "Email_Su_tf",
+              "Phone_number_su_tf",
+              "Password_Su_tf",
+              "Re_Password_Su_tf",
+              "Sign_up_button_3"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 197.1428571428573,
+              "saturation": 0.02777777777777779,
+              "value": 0.9882352941176471
+            }
+          },
+          {
+            "id": "Sign_up_title",
+            "padding": {
+              "left": 39.82661056518555,
+              "top": 41.851688385009766,
+              "right": 39.82661056518555,
+              "bottom": 41.851688385009766
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 384.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 158.5
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Greeting_2"
+            ],
+            "item-spacing": 6.750272274017334,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 189.2682926829268,
+              "saturation": 1.0,
+              "value": 0.4823529411764706
+            }
+          },
+          {
+            "id": "Name_Su_tf",
+            "padding": {
+              "left": 16.875680923461914,
+              "top": 10.125409126281738,
+              "right": 16.875680923461914,
+              "bottom": 10.125409126281738
+            },
+            "border-radius": 14.850602149963379,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.75
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 194.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 284.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.5
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Name_su_text"
+            ],
+            "item-spacing": 6.750272274017334,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.90243902439022,
+              "saturation": 0.32156862745098036,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Email_Su_tf",
+            "padding": {
+              "left": 16.875680923461914,
+              "top": 10.125409126281738,
+              "right": 16.875680923461914,
+              "bottom": 10.125409126281738
+            },
+            "border-radius": 14.850602149963379,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -0.25
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 264.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 284.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.5
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Email_su_text"
+            ],
+            "item-spacing": 6.750272274017334,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.90243902439022,
+              "saturation": 0.32156862745098036,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Phone_number_su_tf",
+            "padding": {
+              "left": 16.875680923461914,
+              "top": 10.125409126281738,
+              "right": 16.875680923461914,
+              "bottom": 10.125409126281738
+            },
+            "border-radius": 14.850602149963379,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -1.25
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 335.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 284.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.5
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Phone_number_su_text"
+            ],
+            "item-spacing": 6.750272274017334,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.90243902439022,
+              "saturation": 0.32156862745098036,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Password_Su_tf",
+            "padding": {
+              "left": 16.875680923461914,
+              "top": 10.125409126281738,
+              "right": 16.875680923461914,
+              "bottom": 10.125409126281738
+            },
+            "border-radius": 14.850602149963379,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.75
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 405.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 284.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.5
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Password_su_text",
+              "Icon_eye_pw_su"
+            ],
+            "item-spacing": 6.750272274017334,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.90243902439022,
+              "saturation": 0.32156862745098036,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Re_Password_Su_tf",
+            "padding": {
+              "left": 16.875680923461914,
+              "top": 10.125409126281738,
+              "right": 16.875680923461914,
+              "bottom": 10.125409126281738
+            },
+            "border-radius": 14.850602149963379,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -1.25
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 476.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 284.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.5
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Re_password_su_text",
+              "Icon_eye_repw_su"
+            ],
+            "item-spacing": 6.750272274017334,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.90243902439022,
+              "saturation": 0.32156862745098036,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Sign_up_button_3",
+            "padding": {
+              "left": 48.0,
+              "top": 14.0,
+              "right": 48.0,
+              "bottom": 14.0
+            },
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -1.25
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 546.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 159.5
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Sign_up_2"
+            ],
+            "item-spacing": 5.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.99999999999997,
+              "saturation": 0.28571428571428564,
+              "value": 0.4117647058823529
+            }
+          },
+          {
+            "id": "Greeting_2",
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Tạo tài khoản ",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "text-size": 48.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Name_su_text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 195.00000000000003,
+              "saturation": 0.0967741935483871,
+              "value": 0.48627450980392156
+            },
+            "text-content": " Họ và tên",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.200654983520508,
+            "line-height": 1.2102272372736425,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Email_su_text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 195.00000000000003,
+              "saturation": 0.0967741935483871,
+              "value": 0.48627450980392156
+            },
+            "text-content": "Email",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.200654983520508,
+            "line-height": 1.2102272372736425,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Phone_number_su_text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 195.00000000000003,
+              "saturation": 0.0967741935483871,
+              "value": 0.48627450980392156
+            },
+            "text-content": " Số điện thoại",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.200654983520508,
+            "line-height": 1.2102272372736425,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Password_su_text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 195.00000000000003,
+              "saturation": 0.0967741935483871,
+              "value": 0.48627450980392156
+            },
+            "text-content": "Mật Khẩu",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.200654983520508,
+            "line-height": 1.2102272372736425,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Icon_eye_pw_su",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.504852294921875
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 10.468920707702637
+              }
+            },
+            "vector-content": "icon_eye_pw_su.svg"
+          },
+          {
+            "id": "Re_password_su_text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 195.00000000000003,
+              "saturation": 0.0967741935483871,
+              "value": 0.48627450980392156
+            },
+            "text-content": "Nhập lại mật khẩu",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.200654983520508,
+            "line-height": 1.2102272372736425,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Icon_eye_repw_su",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.504852294921875
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 10.468920707702637
+              }
+            },
+            "vector-content": "icon_eye_repw_su.svg"
+          },
+          {
+            "id": "Sign_up_2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 103.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Đăng ký",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 18.5,
+            "line-height": 1.2102272446091111,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Sign_up_screen",
+      "size": {
+        "width": 384.0,
+        "height": 640.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

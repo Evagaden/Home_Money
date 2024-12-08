@@ -1,0 +1,472 @@
+{
+  "name": "sign_in_screen",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "dsUEV42JzmS70atauJUAhv",
+    "node": "8:873",
+    "version": "2159700065104376079",
+    "component-id": "b250cfcbdadbfb3c1c689c9a3e894d4583acbf79"
+  },
+  "default": "Sign_in_screen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Sign_in_title"
+      },
+      {
+        "type": "group",
+        "id": "User_name_tf"
+      },
+      {
+        "type": "group",
+        "id": "Pass_word_tf"
+      },
+      {
+        "type": "text",
+        "id": "Forget_password"
+      },
+      {
+        "type": "group",
+        "id": "Sign_in_button_2"
+      },
+      {
+        "type": "group",
+        "id": "Sign_up_button_2"
+      },
+      {
+        "type": "text",
+        "id": "Greeting"
+      },
+      {
+        "type": "text",
+        "id": "Username_text"
+      },
+      {
+        "type": "text",
+        "id": "Password_text"
+      },
+      {
+        "type": "vector",
+        "id": "Icon_eye"
+      },
+      {
+        "type": "text",
+        "id": "Sign_in_2"
+      },
+      {
+        "type": "text",
+        "id": "Sign_up_2"
+      }
+    ],
+    "modes": {
+      "Sign_in_screen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Sign_in_title",
+              "User_name_tf",
+              "Pass_word_tf",
+              "Forget_password",
+              "Sign_in_button_2",
+              "Sign_up_button_2"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 197.1428571428573,
+              "saturation": 0.02777777777777779,
+              "value": 0.9882352941176471
+            }
+          },
+          {
+            "id": "Sign_in_title",
+            "padding": {
+              "left": 39.82661056518555,
+              "top": 41.851688385009766,
+              "right": 39.82661056518555,
+              "bottom": 41.851688385009766
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 384.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 158.5
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Greeting"
+            ],
+            "item-spacing": 6.750272274017334,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 189.2682926829268,
+              "saturation": 1.0,
+              "value": 0.4823529411764706
+            }
+          },
+          {
+            "id": "User_name_tf",
+            "padding": {
+              "left": 16.875680923461914,
+              "top": 10.125409126281738,
+              "right": 16.875680923461914,
+              "bottom": 10.125409126281738
+            },
+            "border-radius": 14.850602149963379,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.25
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 226.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 284.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.5
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Username_text"
+            ],
+            "item-spacing": 6.750272274017334,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.90243902439022,
+              "saturation": 0.32156862745098036,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Pass_word_tf",
+            "padding": {
+              "left": 16.875680923461914,
+              "top": 10.125409126281738,
+              "right": 16.875680923461914,
+              "bottom": 10.125409126281738
+            },
+            "border-radius": 14.850602149963379,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.25
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 296.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 284.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.5
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Password_text",
+              "Icon_eye"
+            ],
+            "item-spacing": 6.750272274017334,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.90243902439022,
+              "saturation": 0.32156862745098036,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Forget_password",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 476.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 150.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 800.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 189.2682926829268,
+              "saturation": 1.0,
+              "value": 0.4823529411764706
+            },
+            "text-content": "Quên mật khẩu?",
+            "italic": true,
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 18.5,
+            "line-height": 1.2102272446091111,
+            "typeface": "Inter",
+            "underline": true
+          },
+          {
+            "id": "Sign_in_button_2",
+            "padding": {
+              "left": 48.0,
+              "top": 14.0,
+              "right": 48.0,
+              "bottom": 14.0
+            },
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.25
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 411.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 159.5
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Sign_in_2"
+            ],
+            "item-spacing": 5.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 189.2682926829268,
+              "saturation": 1.0,
+              "value": 0.4823529411764706
+            }
+          },
+          {
+            "id": "Sign_up_button_2",
+            "padding": {
+              "left": 48.0,
+              "top": 14.0,
+              "right": 48.0,
+              "bottom": 14.0
+            },
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.25
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 531.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 159.5
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Sign_up_2"
+            ],
+            "item-spacing": 5.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.99999999999997,
+              "saturation": 0.28571428571428564,
+              "value": 0.4117647058823529
+            }
+          },
+          {
+            "id": "Greeting",
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Chào mừng",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "text-size": 48.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Username_text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 195.00000000000003,
+              "saturation": 0.0967741935483871,
+              "value": 0.48627450980392156
+            },
+            "text-content": "Tài Khoản",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.200654983520508,
+            "line-height": 1.2102272372736425,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Password_text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 195.00000000000003,
+              "saturation": 0.0967741935483871,
+              "value": 0.48627450980392156
+            },
+            "text-content": "Mật Khẩu",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.200654983520508,
+            "line-height": 1.2102272372736425,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Icon_eye",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.504852294921875
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 10.468920707702637
+              }
+            },
+            "vector-content": "icon_eye.svg"
+          },
+          {
+            "id": "Sign_in_2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 103.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Đăng nhập",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 18.5,
+            "line-height": 1.2102272446091111,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Sign_up_2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 103.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Đăng ký",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 18.5,
+            "line-height": 1.2102272446091111,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Sign_in_screen",
+      "size": {
+        "width": 384.0,
+        "height": 640.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
