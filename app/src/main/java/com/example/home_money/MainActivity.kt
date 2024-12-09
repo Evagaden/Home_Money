@@ -13,11 +13,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
-import com.example.home_money.homescreen.HomeScreen
-import com.example.home_money.mainscreen.MainScreen
-import com.example.home_money.signinscreen.SignInScreen
-import com.example.home_money.signupscreen.SignUpScreen
 import com.example.home_money.ui.theme.Home_MoneyTheme
 
 class MainActivity : ComponentActivity() {
@@ -27,10 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Home_MoneyTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    MainScreen(
-                        modifier = Modifier
-                            .padding(innerPadding)
-                    )
+                    App(modifier = Modifier.padding(innerPadding))
                 }
             }
         }

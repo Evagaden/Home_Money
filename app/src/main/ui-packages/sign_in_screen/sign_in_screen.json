@@ -3,10 +3,10 @@
   "version": 33,
   "source-key": {
     "type": "figma",
-    "file": "dsUEV42JzmS70atauJUAhv",
-    "node": "8:873",
-    "version": "2159700065104376079",
-    "component-id": "b250cfcbdadbfb3c1c689c9a3e894d4583acbf79"
+    "file": "MWNpoCWEHfbaikIxHkrAuw",
+    "node": "24:25",
+    "version": "2159910822368536450",
+    "component-id": "04c0f056cb87a18ac546d896b3ebfc91b023aa84"
   },
   "default": "Sign_in_screen",
   "design": {
@@ -29,16 +29,8 @@
         "id": "Pass_word_tf"
       },
       {
-        "type": "text",
-        "id": "Forget_password"
-      },
-      {
         "type": "group",
-        "id": "Sign_in_button_2"
-      },
-      {
-        "type": "group",
-        "id": "Sign_up_button_2"
+        "id": "Sign_in_button"
       },
       {
         "type": "text",
@@ -57,6 +49,18 @@
         "id": "Icon_eye"
       },
       {
+        "type": "group",
+        "id": "Sign_in_button_2"
+      },
+      {
+        "type": "text",
+        "id": "Forget_password"
+      },
+      {
+        "type": "group",
+        "id": "Sign_up_button_2"
+      },
+      {
         "type": "text",
         "id": "Sign_in_2"
       },
@@ -70,14 +74,15 @@
         "rules": [
           {
             "id": "top_level",
-            "is-structured": false,
+            "padding": {
+              "bottom": 30.0
+            },
+            "main-axis-align": "space-between",
             "children": [
               "Sign_in_title",
               "User_name_tf",
               "Pass_word_tf",
-              "Forget_password",
-              "Sign_in_button_2",
-              "Sign_up_button_2"
+              "Sign_in_button"
             ],
             "background-color": {
               "alpha": 1.0,
@@ -96,12 +101,11 @@
             },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": 384.0
+                "sizing-mode": "proportional",
+                "value": 1.0
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": 158.5
+                "sizing-mode": "shrink"
               }
             },
             "arrangement": "row",
@@ -125,16 +129,6 @@
               "bottom": 10.125409126281738
             },
             "border-radius": 14.850602149963379,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": 0.25
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 226.5
-              }
-            },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -167,16 +161,6 @@
               "bottom": 10.125409126281738
             },
             "border-radius": 14.850602149963379,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": 0.25
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 296.5
-              }
-            },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -202,122 +186,23 @@
             "clip-content": false
           },
           {
-            "id": "Forget_password",
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": 0.0
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 476.5
-              }
-            },
+            "id": "Sign_in_button",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": 150.0
+                "sizing-mode": "shrink"
               },
               "height-constraints": {
                 "sizing-mode": "shrink"
               }
             },
-            "font-weight": 800.0,
-            "color": {
-              "alpha": 1.0,
-              "hue": 189.2682926829268,
-              "saturation": 1.0,
-              "value": 0.4823529411764706
-            },
-            "text-content": "Quên mật khẩu?",
-            "italic": true,
-            "overflow": "visible",
-            "max-lines": -1,
-            "text-align-vertical": "center",
-            "text-size": 18.5,
-            "line-height": 1.2102272446091111,
-            "typeface": "Inter",
-            "underline": true
-          },
-          {
-            "id": "Sign_in_button_2",
-            "padding": {
-              "left": 48.0,
-              "top": 14.0,
-              "right": 48.0,
-              "bottom": 14.0
-            },
-            "border-radius": 25.0,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": 0.25
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 411.0
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": 159.5
-              },
-              "height-constraints": {
-                "sizing-mode": "shrink"
-              }
-            },
-            "arrangement": "row",
+            "main-axis-align": "start",
             "children": [
-              "Sign_in_2"
+              "Sign_in_button_2",
+              "Forget_password",
+              "Sign_up_button_2"
             ],
-            "item-spacing": 5.0,
-            "background-color": {
-              "alpha": 1.0,
-              "hue": 189.2682926829268,
-              "saturation": 1.0,
-              "value": 0.4823529411764706
-            }
-          },
-          {
-            "id": "Sign_up_button_2",
-            "padding": {
-              "left": 48.0,
-              "top": 14.0,
-              "right": 48.0,
-              "bottom": 14.0
-            },
-            "border-radius": 25.0,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": 0.25
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 531.0
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": 159.5
-              },
-              "height-constraints": {
-                "sizing-mode": "shrink"
-              }
-            },
-            "arrangement": "row",
-            "children": [
-              "Sign_up_2"
-            ],
-            "item-spacing": 5.0,
-            "background-color": {
-              "alpha": 1.0,
-              "hue": 193.99999999999997,
-              "saturation": 0.28571428571428564,
-              "value": 0.4117647058823529
-            }
+            "item-spacing": 20.0,
+            "clip-content": false
           },
           {
             "id": "Greeting",
@@ -402,6 +287,97 @@
             "vector-content": "icon_eye.svg"
           },
           {
+            "id": "Sign_in_button_2",
+            "padding": {
+              "left": 48.0,
+              "top": 14.0,
+              "right": 48.0,
+              "bottom": 14.0
+            },
+            "border-radius": 25.0,
+            "tap-handler": "$on Sign_in_button_2 tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 159.5
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Sign_in_2"
+            ],
+            "item-spacing": 5.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 189.2682926829268,
+              "saturation": 1.0,
+              "value": 0.4823529411764706
+            }
+          },
+          {
+            "id": "Forget_password",
+            "tap-handler": "$on Forget_password tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 384.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 800.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 189.2682926829268,
+              "saturation": 1.0,
+              "value": 0.4823529411764706
+            },
+            "text-content": "Quên mật khẩu?",
+            "italic": true,
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 18.5,
+            "line-height": 1.2102272446091111,
+            "typeface": "Inter",
+            "underline": true
+          },
+          {
+            "id": "Sign_up_button_2",
+            "padding": {
+              "left": 48.0,
+              "top": 14.0,
+              "right": 48.0,
+              "bottom": 14.0
+            },
+            "border-radius": 25.0,
+            "tap-handler": "$on Sign_up_button_2 tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 159.5
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Sign_up_2"
+            ],
+            "item-spacing": 5.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 193.99999999999997,
+              "saturation": 0.28571428571428564,
+              "value": 0.4117647058823529
+            }
+          },
+          {
             "id": "Sign_in_2",
             "size-constraints": {
               "width-constraints": {
@@ -457,12 +433,29 @@
       }
     }
   },
+  "parameters": {
+    "on Sign_in_button_2 tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Forget_password tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Sign_up_button_2 tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
   "previews": [
     {
       "design": "Sign_in_screen",
       "size": {
         "width": 384.0,
-        "height": 640.0
+        "height": 589.0
       }
     }
   ],

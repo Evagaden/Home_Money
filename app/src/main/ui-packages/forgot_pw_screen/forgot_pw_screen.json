@@ -4,9 +4,9 @@
   "source-key": {
     "type": "figma",
     "file": "MWNpoCWEHfbaikIxHkrAuw",
-    "node": "4:136",
-    "version": "2159744284996620826",
-    "component-id": "2ce65e5c9546b5e8162ffbd72e0031ed3f9f8118"
+    "node": "24:147",
+    "version": "2159910822368536450",
+    "component-id": "511d8d55c27ea573f4ede43a00f1cb698768f728"
   },
   "default": "Forgot_pw_screen",
   "design": {
@@ -18,7 +18,7 @@
       },
       {
         "type": "group",
-        "id": "Top_content"
+        "id": "Forgot_pw_title"
       },
       {
         "type": "group",
@@ -46,9 +46,12 @@
         "rules": [
           {
             "id": "top_level",
-            "is-structured": false,
+            "padding": {
+              "bottom": 30.0
+            },
+            "main-axis-align": "space-between",
             "children": [
-              "Top_content",
+              "Forgot_pw_title",
               "User_name_tf_3",
               "Send_newpw_button"
             ],
@@ -60,16 +63,17 @@
             }
           },
           {
-            "id": "Top_content",
+            "id": "Forgot_pw_title",
             "padding": {
-              "left": 44.5,
-              "top": 55.0,
-              "right": 44.5,
-              "bottom": 55.0
+              "left": 39.82661056518555,
+              "top": 41.851688385009766,
+              "right": 39.82661056518555,
+              "bottom": 41.851688385009766
             },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "shrink"
+                "sizing-mode": "proportional",
+                "value": 1.0
               },
               "height-constraints": {
                 "sizing-mode": "shrink"
@@ -79,7 +83,7 @@
             "children": [
               "Greeting_3"
             ],
-            "item-spacing": 5.0,
+            "item-spacing": 6.750272274017334,
             "background-color": {
               "alpha": 1.0,
               "hue": 189.2682926829268,
@@ -96,16 +100,6 @@
               "bottom": 10.125409126281738
             },
             "border-radius": 14.850602149963379,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": -0.25
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 259.5
-              }
-            },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -138,16 +132,7 @@
               "bottom": 14.0
             },
             "border-radius": 25.0,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": 0.25
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 411.0
-              }
-            },
+            "tap-handler": "$on Send_newpw_button tapped",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "shrink"
@@ -180,8 +165,8 @@
             "text-content": "Quên mật khẩu",
             "overflow": "visible",
             "text-align-vertical": "center",
-            "text-size": 40.0,
-            "line-height": 1.2102272033691406,
+            "text-size": 36.0,
+            "line-height": 1.2102272245619032,
             "typeface": "Inter"
           },
           {
@@ -240,12 +225,19 @@
       }
     }
   },
+  "parameters": {
+    "on Send_newpw_button tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
   "previews": [
     {
       "design": "Forgot_pw_screen",
       "size": {
         "width": 384.0,
-        "height": 640.0
+        "height": 460.203369140625
       }
     }
   ],

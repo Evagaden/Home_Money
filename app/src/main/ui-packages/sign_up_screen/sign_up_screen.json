@@ -4,9 +4,9 @@
   "source-key": {
     "type": "figma",
     "file": "MWNpoCWEHfbaikIxHkrAuw",
-    "node": "4:143",
-    "version": "2159744284996620826",
-    "component-id": "dcbdca993fffe501e654fc4197d4fbe2a3e79330"
+    "node": "24:154",
+    "version": "2159910822368536450",
+    "component-id": "af58ecc6656f97627c4b74304885c5f94d33b5f6"
   },
   "default": "Sign_up_screen",
   "design": {
@@ -86,7 +86,10 @@
         "rules": [
           {
             "id": "top_level",
-            "is-structured": false,
+            "padding": {
+              "bottom": 30.0
+            },
+            "main-axis-align": "space-between",
             "children": [
               "Sign_up_title",
               "Name_Su_tf",
@@ -113,12 +116,11 @@
             },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": 384.0
+                "sizing-mode": "proportional",
+                "value": 1.0
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": 158.5
+                "sizing-mode": "shrink"
               }
             },
             "arrangement": "row",
@@ -142,16 +144,6 @@
               "bottom": 10.125409126281738
             },
             "border-radius": 14.850602149963379,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": 0.75
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 194.0
-              }
-            },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -184,16 +176,6 @@
               "bottom": 10.125409126281738
             },
             "border-radius": 14.850602149963379,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": -0.25
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 264.5
-              }
-            },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -226,16 +208,6 @@
               "bottom": 10.125409126281738
             },
             "border-radius": 14.850602149963379,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": -1.25
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 335.0
-              }
-            },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -268,16 +240,6 @@
               "bottom": 10.125409126281738
             },
             "border-radius": 14.850602149963379,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": 0.75
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 405.5
-              }
-            },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -311,16 +273,6 @@
               "bottom": 10.125409126281738
             },
             "border-radius": 14.850602149963379,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": -1.25
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 476.0
-              }
-            },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -354,16 +306,7 @@
               "bottom": 14.0
             },
             "border-radius": 25.0,
-            "alignment": {
-              "horizontal": {
-                "attachment": "center",
-                "offset": -1.25
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": 546.5
-              }
-            },
+            "tap-handler": "$on Sign_up_button_3 tapped",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -397,8 +340,8 @@
             "text-content": "Tạo tài khoản ",
             "overflow": "visible",
             "text-align-vertical": "center",
-            "text-size": 48.0,
-            "line-height": 1.2102272510528564,
+            "text-size": 36.0,
+            "line-height": 1.2102272245619032,
             "typeface": "Inter"
           },
           {
@@ -589,12 +532,19 @@
       }
     }
   },
+  "parameters": {
+    "on Sign_up_button_3 tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
   "previews": [
     {
       "design": "Sign_up_screen",
       "size": {
         "width": 384.0,
-        "height": 640.0
+        "height": 629.0
       }
     }
   ],
